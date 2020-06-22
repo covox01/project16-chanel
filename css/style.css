@@ -1,0 +1,26 @@
+#logo {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   max-width: 500px;
+}
+
+.clip-svg1 {
+   clip-path: url(#left-clip-c)
+}
+
+.clip-svg2 {
+   clip-path: url(#right-clip-c)
+}
+
+.clip-svg3 {
+   clip-path: url(#copy-clip)
+}
+
+.main-logo-clip {
+   clip-path: url(#logo-clip)
+}
+
+#main-logo-left-c{
+   z-index: 10
+}
