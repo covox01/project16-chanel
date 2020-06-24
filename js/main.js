@@ -23,7 +23,7 @@ function end(){
    .to("#right-c", t, { fill: "#000000", ease: logoEase2 }, "sync")
    .to("#logo-copy-gradient", 2, {y: 300, ease: logoEase2}, "sync")
    .to("#logo-copy", 2, { opacity: 0, ease: logoEase2, onComplete: clearProps}, "sync")
-   .to("#left-c, #right-c", 1, {opacity: 0, fill: "#000000"}, "-=1.8")
+   .to("#left-c, #right-c", 1, {opacity: 0, fill: "#000000"}, "-=1.9")
 }
 
 function clearProps(){
